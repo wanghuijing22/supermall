@@ -55,8 +55,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
+<<<<<<< HEAD
       inject: true,
       favicon: './src/assets/img/Reindeer.png'
+=======
+      inject: true
+>>>>>>> 5797a8ebc89e2ffb3211758ccba49db13130b1df
     }),
     // copy custom static assets
     new CopyWebpackPlugin([

@@ -4,7 +4,11 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
+<<<<<<< HEAD
 function resolve(dir) {
+=======
+function resolve (dir) {
+>>>>>>> 5797a8ebc89e2ffb3211758ccba49db13130b1df
   return path.join(__dirname, '..', dir)
 }
 
@@ -26,11 +30,14 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       '@': resolve('src'),
+<<<<<<< HEAD
       'assets': resolve('src/assets'),
       'common': resolve('src/common'),
       'components': resolve('src/components'),
       'views': resolve('src/views'),
       'network': resolve('src/network'),
+=======
+>>>>>>> 5797a8ebc89e2ffb3211758ccba49db13130b1df
     }
   },
   module: {
@@ -82,5 +89,9 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
+<<<<<<< HEAD
   },
+=======
+  }
+>>>>>>> 5797a8ebc89e2ffb3211758ccba49db13130b1df
 }
